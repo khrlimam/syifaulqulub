@@ -145,6 +145,23 @@
           <div>
             <div class="single__blog d-flex align-items-center">
               <div class="thum">
+                <img src="img/news/tafsir-19-24.jpg" alt="">
+              </div>
+              <div class="newsinfo">
+                <span>June 07, 2024</span>
+                <a href="https://youtu.be/Lb4IgRHJtVA" target="_blank">
+                  <h3>Tafseer As-Showi Surah Al-Baqarah Ayat 19-24</h3>
+                </a>
+                <p>In this chapter we learn about the tamtsiil of munafiqiin that hears about Al-Quran but choose to avoid it</p>
+                <a class="read_more" href="https://youtu.be/Lb4IgRHJtVA" target="_blank">Watch Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 bottom-spacer">
+          <div>
+            <div class="single__blog d-flex align-items-center">
+              <div class="thum">
                 <img src="img/news/tafsir2.jpg" alt="">
               </div>
               <div class="newsinfo">
@@ -702,6 +719,13 @@
   <script src="js/mail-script.js"></script>
 
   <script src="js/main.js"></script>
+  <script>
+    $(function() {
+      $.getJSON('data/mudzakarah.json', function(data) {
+      console.log(data);
+    });
+    });
+  </script>
 </body>
 
 </html>
